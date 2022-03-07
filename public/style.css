@@ -1,0 +1,410 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+nav ul li{
+    display: inline-block;
+    /* border: 5px solid red; */
+    padding: 20px;
+    padding-top: 0;
+    /* background-color: white; */
+
+}
+nav ul{
+    text-align: center;
+    /* background-color: white; */
+
+
+}
+
+
+
+
+.div_1{
+    margin: 50px;
+    display: flex;
+    justify-content:  space-around;
+}
+.div_1 h1{
+    color: darkgreen;
+    font-size: 5.5em;
+}
+
+.div_1 p{
+    color: gray;
+    font-size: 1.5em;
+}
+
+.div_1 img{
+    margin: 30px 0px;
+}
+
+.picture img{
+    /* margin-left: 50px; */
+    margin-top: 0%;
+    margin-right: 0%;
+    padding-left: 100px;
+}
+
+.trusted{
+    margin-top: 50px;
+}
+.trusted p{
+    font-size: 1.3em;
+    margin-bottom: 0%;
+}
+
+.trusted img{
+    padding: 0 20px 0 0px;
+    margin: 0%;
+    display: inline-block;
+}
+
+
+
+.div_2{
+    display: flex;
+}
+
+
+.content{
+    display: inline-block;
+}
+.pink_picture{
+    display: inline-block;
+    /* justify-content: flex-start; */
+    /* position: left; */
+    padding-left: 100px;
+}
+
+.why_business{
+    background-color:#F2F7F2 ;
+    margin: 0 20px;
+    padding: 0 40px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex: 2;
+}
+
+.why_business h2{
+    font-size: 3em;
+    text-decoration: none;
+    padding: 50px 0 30px;
+}
+
+.why_business h1{
+    padding-bottom: 5px;
+    font-size: 1.5em;
+}
+.why_business p{
+    color: #5E6D78;
+    font-size: 1.2em;
+}
+
+.green_bg{
+    background-color: #14A800;
+    color: white;
+    padding-left: 20px;
+    padding-top: 250px;
+    flex: 1;
+}
+.heading{
+    font-size: 2em;padding-top: 40px;
+
+    /* font-weight: bold; */
+}
+
+
+
+
+.div_3{
+    color: white;
+    margin: 50px 20px;
+}
+
+
+.sub_div_3{
+    background-image: url(./pictures/blue\ t\ shirt\ boy\ landscape.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+
+}
+.div_3 p{
+    font-size: 1.3em;
+    margin: 0px 30px;
+    padding: 30px 0;
+}
+.div_3 h1{
+    font-size: 5em;
+    margin: 50px 30px 0;
+}
+
+.flexdiv{
+    display: flex;
+
+}
+.flexdiv .green1{
+    background-color: green;
+    flex: 1;
+    margin: 0 30px;
+    font-size: 0.5em;
+    padding: 0;
+    /* padding-bottom: 50px; */
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.flexdiv .green1 h1{
+    padding: 0;
+    margin: 10px 80px 0px 20px;
+}
+
+.flexdiv .green1 p{
+    padding: 0;
+    margin: 10px 40px 10px 20px;
+    font-size: 2em;
+}
+
+
+
+.div_4{
+    display: flex;
+    margin: 60px;
+}
+
+.div_4 .div_4_text{
+    flex: 2;
+    margin:20px 40px ;
+}
+
+.div_4 .div_4_text h1{
+    font-size: 5em;
+}
+
+.div_4 .div_4_text ul{
+    padding-top: 20px;
+    list-style: none;
+}
+
+.div_4 .div_4_text ul li{
+    color: lightslategray;
+    font-size: 2.5em;
+}
+.div_4 .div_4_text ul li:hover{
+    color: #14A800;
+}
+
+
+.div_4 .div_4_imgbutton{
+    flex: 2;
+}
+.div_4 .div_4_imgbutton img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.div_4 .div_4_imgbutton .div_4_button p{
+    display: inline-block;
+    color: gray;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 5px 5px;
+    border: 1px solid grey;
+}
+
+.div_4 .div_4_imgbutton .div_4_button p:hover{
+    background-color: rgba(217, 233, 250, 0.2);
+}
+
+.div_5{
+    display: flex;
+    margin: 40px;
+    /* border-radius: 50px; */
+    /* border: 5px solid red; */
+    /* border-radius: 10px; */
+}
+.div_5 .div_5_text{
+    background-color: #1F57C3;
+    color: white;
+    padding: 40px;
+}
+
+.div_5 .div_5_text h1{
+    margin: 40px 40px 40px 0px;
+    line-height: 80px;
+    font-size: 5em;
+}
+.div_5 .div_5_text p{
+    font-size: 1.3em;
+    margin: 0px 40px 0px 0px;
+
+}
+
+.container{
+    display: flex;
+    margin: 80px 0 0 0;
+    font-size: 0.8em;
+    padding: 0;
+    border-top: 1px solid white;
+}
+.container .para1{
+    padding-top: 10px;
+    flex: 1;
+}
+.div_5 .div_5_text button{
+    margin-top: 30px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 1.1em;
+    color: #1F57C3;
+}
+
+
+.div_6 h1{
+    margin: 100px 70px 20px;
+    font-size: 5em;
+}
+
+.div_7{
+    display: flex;
+    margin: 0 70px 50px;
+    color: white;
+    /* justify-content: space-evenly; */
+    /* padding: 20px; */
+    /* padding: 0;
+    margin: 0; */
+}
+
+.div_7 .div_7_green{
+    background-color: #13544E;
+    margin: 0 30px 0 0;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+
+
+.div_7 .div_7_green .logo{
+    display: inline-block;
+    font-size: 3em;
+}
+
+.div_7 .para{
+    font-size: 1.8em;
+    line-height: 25px;
+    /* margin-top: 10px; */
+    margin: 0 20px 0 0px;
+
+}
+
+.div_7 .sub_para{
+    color: grey ;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.div_7 .bottom{
+    display: flex;
+}
+
+.div_7 .section1{
+    margin-top: 20px;
+    flex: 1;
+}
+
+
+
+.div_7 .div_7_orange{
+    background-color: #BC511B;
+    border-radius: 10px;
+    padding: 10px 30px;
+
+
+}
+
+
+
+.div_7 .div_7_orange .logo{
+    display: inline-block;
+    font-size: 3em;
+}
+
+
+
+.div_8{
+    display: flex;
+    margin: 10px 60px 100px;
+}
+
+.div_8 .section1{
+    color: lightgrey;
+    font-size: 3em;
+    margin: 0 100px 0 0;
+}
+
+.div_8 .section2{
+    color: rgb(99, 98, 98);
+    font-size: 1.5em;
+    line-height: 40px;
+    margin: 0 100px 0 0;
+
+}
+
+footer{
+    background-color: #001E00;
+    color: white;
+    padding: 20px 30px;
+}
+
+footer .foot_div{
+    display: flex;
+}
+
+footer .foot_sec{
+    font-size: 0.9em;
+    line-height: 30px;
+    margin: 20px 70px;
+}
+
+footer .foot_div1{
+    display: flex;
+    border-top: 1px solid white;
+    margin: 20px 70px;
+}
+footer .foot_sec1{
+    font-size: 0.9em;
+    padding-right: 300px;
+    /* justify-items: flex-end; */
+
+
+}
+footer .foot_sec1 p{
+    display: inline-block;
+    /* margin-bottom: 5px; */
+}
+
+footer .foot_div2{
+    display: flex;
+    border-top: 1px solid white;
+    margin: 20px 70px;
+    justify-content: space-between;
+    font-size: 0.9em;
+    padding-top: 20px;
+
+}
+footer .foot_div2 p{
+    display: inline-block;
+}
